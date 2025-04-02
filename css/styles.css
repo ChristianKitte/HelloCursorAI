@@ -1,0 +1,17 @@
+#helloText {
+    transition: color 1s ease-in-out;
+    transform-origin: center;
+}
+
+.rotating {
+    animation: rotate 1s ease-in-out forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
